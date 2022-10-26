@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 16px 0;
+
+    &__title {
+        font-size: 24px;
+        margin: 0 2%;
+    }
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+
+    margin: 0 2%;
+
+    .menu__option {
+        cursor: pointer;
+        
+        .option__text {
+            display: inline-block;
+            padding: 0 8px;
+
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

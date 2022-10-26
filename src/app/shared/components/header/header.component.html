@@ -1,0 +1,8 @@
+<header class="header">
+    <h1 class="header__title">{{title}}</h1>
+    <nav id="menu" class="menu">
+        <div *ngFor="let opt of options; let i = index" [id]="'menuOption' + i" class="menu__option">
+            <span class="option__text">{{opt.text}}</span>
+        </div>
+    </nav>
+</header>

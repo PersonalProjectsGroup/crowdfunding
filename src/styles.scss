@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+html, body {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+
+    &--flex {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.white {
+    color: white;
+}
